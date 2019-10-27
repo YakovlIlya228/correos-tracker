@@ -7,6 +7,7 @@ import net.kelmer.correostracker.data.repository.RepositoryModule
 import net.kelmer.correostracker.di.NetModule
 import net.kelmer.correostracker.di.ServiceComponent
 import net.kelmer.correostracker.di.ServiceModule
+import net.kelmer.correostracker.di.WorkerModule
 import net.kelmer.correostracker.ui.create.CreateParcelComponent
 import net.kelmer.correostracker.ui.create.CreateParcelModule
 import net.kelmer.correostracker.ui.detail.DetailFragment
@@ -26,7 +27,8 @@ ApplicationModule::class,
 NetModule::class,
 DbModule::class,
 RepositoryModule::class,
-ApiModule::class
+ApiModule::class,
+WorkerModule::class
 ])
 interface ApplicationComponent {
 

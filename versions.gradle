@@ -45,7 +45,7 @@ def extension = ext {
             'stetho'          : "1.5.0",
             'timber'          : "4.1.2",
             'photoViewVersion': '2.0.0',
-            'workManager'     : '1.0.0'
+            'workManager'     : '2.2.0'
 
     ]
 
@@ -83,7 +83,7 @@ def extension = ext {
                     'compiler'       : "android.arch.lifecycle:compiler:${versions.lifecycle}",
                     'reactivestreams': "android.arch.lifecycle:reactivestreams:${versions.lifecycle}",
                     'coretesting'    : "android.arch.core:core-testing:${versions.lifecycle}",
-                    'workmanager'    : "android.arch.work:work-runtime-ktx:${versions.workManager}"
+                    'workmanager'    : "androidx.work:work-runtime-ktx:${versions.workManager}"
 
             ],
             'room'       : [
